@@ -1,6 +1,5 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/bt.h>
 
 / {
     keymap {
@@ -8,10 +7,46 @@
 
         default_layer {
             bindings = <
-                &kp Q       &kp W       &kp E      &kp R    &kp T       &kp Y      &kp U       &kp I          &kp O         &kp P
-                &kp A       &kp S       &kp D      &kp F    &kp G       &kp H      &kp J       &kp K          &kp L         &kp SEMI
-                &kp Z       &kp X       &kp C      &kp V    &kp B       &kp N      &kp M       &kp COMMA      &kp DOT       &kp SLASH
-                                        &kp ESC   &kp SPACE &kp TAB     &kp ENTER  &kp BSPC    &kp DEL
+&kp Q          &kp W        &kp F      &kp P           &kp B            &kp J       &kp L  &kp U  &kp Y  &kp SQT
+&kp A          &kp R        &kp S      &kp T           &kp G            &kp M       &kp N  &kp E  &kp I  &kp O
+&kp Z          &kp X        &kp C      &kp D           &kp V            &kp K       &kp H  &mo 3  &mo 4  &kp SEMICOLON
+&mt LCTRL TAB  &lt 1 SPACE  &kp ENTER  &kp LEFT_SHIFT  &lt 2 BACKSPACE  &kp ESCAPE
+            >;
+        };
+
+        Navigation {
+            bindings = <
+&trans     &trans     &trans     &trans     &trans     &trans   &trans          &trans    &trans  &trans
+&trans     &trans     &trans     &trans     &trans     &trans   &kp LEFT_ARROW  &kp DOWN  &kp UP  &kp RIGHT
+&kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(D)  &kp LC(V)  &trans   &kp HOME        &trans    &trans  &kp END
+&trans     &trans     &trans     &kp DEL    &kp BSPC   &kp ESC
+            >;
+        };
+
+        Numbers {
+            bindings = <
+&kp F10  &kp F7     &kp F8   &kp F9  &kp PRINTSCREEN  &kp FSLH       &kp N7  &kp N8  &kp N9  &kp BSPC
+&kp F11  &kp F4     &kp F5   &kp F6  &trans           &kp LS(POUND)  &kp N4  &kp N5  &kp N6  &kp DOT
+&kp F12  &kp F1     &kp F2   &kp F3  &trans           &kp GRAVE      &kp N1  &kp N2  &kp N3  &kp COMMA
+&kp TAB  &kp SPACE  &kp RET  &trans  &trans           &trans
+            >;
+        };
+
+        Symbols {
+            bindings = <
+&kp GT         &kp RBRC     &kp RBKT       &kp LS(RPAR)  &kp BSLH      &kp TILDE      &kp CARET      &trans  &trans         &kp AT_SIGN
+&kp LT         &kp LBRC     &kp LBKT       &kp LS(LPAR)  &kp LS(FSLH)  &kp LS(PRCNT)  &kp STAR       &trans  &kp LS(COLON)  &kp SEMI
+&kp POUND      &kp DLLR     &kp LS(QMARK)  &kp LS(EXCL)  &kp PIPE      &kp AMPS       &kp LS(EQUAL)  &trans  &kp LS(PLUS)   &kp GRAVE
+&kp LS(UNDER)  &kp LS(SQT)  &kp LS(DQT)    &kp DOT       &kp COMMA     &kp MINUS
+            >;
+        };
+
+        Misc {
+            bindings = <
+&trans                &kp BSLH  &kp MINUS  &kp RBKT   &trans  &trans  &trans  &trans  &trans  &sys_reset
+&kp NON_US_BACKSLASH  &kp LBKT  &kp N0     &kp EQUAL  &trans  &trans  &trans  &trans  &trans  &trans
+&trans                &trans    &trans     &trans     &trans  &trans  &trans  &trans  &trans  &trans
+&trans                &trans    &trans     &trans     &trans  &trans
             >;
         };
     };
