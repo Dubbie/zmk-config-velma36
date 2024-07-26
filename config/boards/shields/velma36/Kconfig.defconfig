@@ -1,0 +1,6 @@
+if SHIELD_VELMA36
+
+config ZMK_KEYBOARD_NAME
+    default "Velma36"
+
+endif
