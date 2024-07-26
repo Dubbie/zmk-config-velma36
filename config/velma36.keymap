@@ -34,10 +34,10 @@
 
         Symbols {
             bindings = <
-&kp GT         &kp RBRC     &kp RBKT       &kp LS(RPAR)  &kp BSLH      &kp TILDE      &kp CARET      &trans  &trans         &kp AT_SIGN
-&kp LT         &kp LBRC     &kp LBKT       &kp LS(LPAR)  &kp LS(FSLH)  &kp LS(PRCNT)  &kp STAR       &trans  &kp LS(COLON)  &kp SEMI
-&kp POUND      &kp DLLR     &kp LS(QMARK)  &kp LS(EXCL)  &kp PIPE      &kp AMPS       &kp LS(EQUAL)  &trans  &kp LS(PLUS)   &kp GRAVE
-&kp LS(UNDER)  &kp LS(SQT)  &kp LS(DQT)    &kp DOT       &kp COMMA     &kp MINUS
+&kp RA(Z)                 &kp RA(N)          &kp RA(RBKT)  &kp LS(LPAR)  &kp LC(Q)      &kp RA(NUMBER_1)  &kp RA(NUMBER_3)  &trans  &trans         &kp RA(V)
+&kp RA(NON_US_BACKSLASH)  &kp RA(B)          &kp RA(F)     &kp LS(STAR)  &kp LS(CARET)  &kp LS(PRCNT)     &kp RA(SLASH)     &trans  &kp LS(GT)     &kp RA(COMMA)
+&kp LS(POUND)             &kp RA(SEMICOLON)  &kp LS(LT)    &kp LS(DLLR)  &kp RA(W)      &kp RA(C)         &kp LS(N7)        &trans  &kp LS(POUND)  &kp RA(N7)
+&kp LS(UNDER)             &kp LS(EXCL)       &kp LS(AT)    &kp DOT       &kp COMMA      &kp MINUS
             >;
         };
 
