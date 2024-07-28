@@ -40,7 +40,7 @@
 &kp Q                         &kp W                         &kp F                      &kp P                           &kp B            &kp J       &kp L                            &kp U                       &kp Z                           &kp SQT
 &timeless_mt_left LEFT_GUI A  &timeless_mt_left LEFT_ALT R  &timeless_mt_left LCTRL S  &timeless_mt_left LEFT_SHIFT T  &kp G            &kp M       &timeless_mt_right LEFT_SHIFT N  &timeless_mt_right LCTRL E  &timeless_mt_right RIGHT_ALT I  &timeless_mt_right RIGHT_GUI O
 &kp Y                         &kp X                         &kp C                      &kp D                           &kp V            &kp K       &kp H                            &mo 3                       &mo 4                           &kp SEMICOLON
-&mt LCTRL TAB                 &lt 1 SPACE                   &kp ENTER                  &kp LEFT_SHIFT                  &lt 2 BACKSPACE  &kp ESCAPE
+&mt LCTRL TAB                 &lt 1 SPACE                   &kp LEFT_SHIFT             &kp ENTER                       &lt 2 BACKSPACE  &kp ESCAPE
             >;
         };
 
