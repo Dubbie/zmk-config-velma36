@@ -7,19 +7,19 @@
 
         default_layer {
             bindings = <
-&kp Q          &kp W        &kp F      &kp P           &kp B            &kp J       &kp L  &kp U  &kp Y  &kp SQT
-&kp A          &kp R        &kp S      &kp T           &kp G            &kp M       &kp N  &kp E  &kp I  &kp O
-&kp Z          &kp X        &kp C      &kp D           &kp V            &kp K       &kp H  &mo 3  &mo 4  &kp SEMICOLON
-&mt LCTRL TAB  &lt 1 SPACE  &kp ENTER  &kp LEFT_SHIFT  &lt 2 BACKSPACE  &kp ESCAPE
+&kp Q           &kp W           &kp F        &kp P             &kp B            &kp J       &kp L             &kp U        &kp Z            &kp SQT
+&mt LEFT_GUI A  &mt LEFT_ALT R  &mt LCTRL S  &mt LEFT_SHIFT T  &kp G            &kp M       &mt LEFT_SHIFT N  &mt LCTRL E  &mt RIGHT_ALT I  &mt RIGHT_GUI O
+&kp Y           &kp X           &kp C        &kp D             &kp V            &kp K       &kp H             &mo 3        &mo 4            &kp SEMICOLON
+&mt LCTRL TAB   &lt 1 SPACE     &kp ENTER    &kp LEFT_SHIFT    &lt 2 BACKSPACE  &kp ESCAPE
             >;
         };
 
         Navigation {
             bindings = <
-&trans     &trans     &trans     &trans     &trans     &trans   &trans          &trans    &trans  &trans
-&trans     &trans     &trans     &trans     &trans     &trans   &kp LEFT_ARROW  &kp DOWN  &kp UP  &kp RIGHT
-&kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(D)  &kp LC(V)  &trans   &kp HOME        &trans    &trans  &kp END
-&trans     &trans     &trans     &kp DEL    &kp BSPC   &kp ESC
+&trans        &trans        &trans     &trans          &trans     &trans   &trans          &trans    &trans  &trans
+&sk LEFT_GUI  &sk LEFT_ALT  &sk LCTRL  &sk LEFT_SHIFT  &trans     &trans   &kp LEFT_ARROW  &kp DOWN  &kp UP  &kp RIGHT
+&kp LC(Y)     &kp LC(X)     &kp LC(C)  &kp LC(D)       &kp LC(V)  &trans   &kp HOME        &trans    &trans  &kp END
+&trans        &trans        &trans     &kp DEL         &kp BSPC   &kp ESC
             >;
         };
 
@@ -34,10 +34,10 @@
 
         Symbols {
             bindings = <
-&kp RA(Z)                 &kp RA(N)          &kp RA(RBKT)  &kp LS(LPAR)  &kp LC(Q)      &kp RA(NUMBER_1)  &kp RA(NUMBER_3)  &trans  &trans         &kp RA(V)
-&kp RA(NON_US_BACKSLASH)  &kp RA(B)          &kp RA(F)     &kp LS(STAR)  &kp LS(CARET)  &kp LS(PRCNT)     &kp RA(SLASH)     &trans  &kp LS(GT)     &kp RA(COMMA)
-&kp LS(POUND)             &kp RA(SEMICOLON)  &kp LS(LT)    &kp LS(DLLR)  &kp RA(W)      &kp RA(C)         &kp LS(N7)        &trans  &kp LS(POUND)  &kp RA(N7)
-&kp LS(UNDER)             &kp LS(EXCL)       &kp LS(AT)    &kp DOT       &kp COMMA      &kp MINUS
+&kp RA(Z)                 &kp RA(N)          &kp RA(G)   &kp LS(LPAR)  &kp RA(Q)      &kp RA(NUMBER_1)  &kp RA(NUMBER_3)  &trans  &trans         &kp RA(V)
+&kp RA(NON_US_BACKSLASH)  &kp RA(B)          &kp RA(F)   &kp LS(STAR)  &kp LS(CARET)  &kp LS(PRCNT)     &kp RA(SLASH)     &trans  &kp LS(GT)     &kp RA(COMMA)
+&kp RA(X)                 &kp RA(SEMICOLON)  &kp LS(LT)  &kp LS(DLLR)  &kp RA(W)      &kp RA(C)         &kp LS(N7)        &trans  &kp LS(POUND)  &kp RA(N7)
+&kp LS(MINUS)             &kp LS(EXCL)       &kp LS(AT)  &kp DOT       &kp COMMA      &kp SLASH
             >;
         };
 
