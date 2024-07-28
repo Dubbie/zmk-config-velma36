@@ -43,9 +43,9 @@
 
         Misc {
             bindings = <
-&trans                &kp BSLH  &kp MINUS  &kp RBKT   &trans  &trans  &trans  &trans  &trans  &sys_reset
+&trans                &kp BSLH  &kp MINUS  &kp RBKT   &trans  &trans  &trans  &trans  &trans  &bootloader
 &kp NON_US_BACKSLASH  &kp LBKT  &kp N0     &kp EQUAL  &trans  &trans  &trans  &trans  &trans  &trans
-&trans                &trans    &trans     &trans     &trans  &trans  &trans  &trans  &trans  &trans
+&trans                &trans    &trans     &trans     &trans  &trans  &trans  &trans  &trans  &sys_reset
 &trans                &trans    &trans     &trans     &trans  &trans
             >;
         };
