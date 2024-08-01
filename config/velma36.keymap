@@ -61,10 +61,10 @@
 
         default_layer {
             bindings = <
-&kp Q  &kp W  &kp F      &kp P           &kp B  &kp J  &kp L  &kp U      &kp Y    &kp SQT
-&kp A  &kp R  &kp S      &kp T           &kp G  &kp M  &kp N  &kp E      &kp I    &kp O
-&kp Z  &kp X  &kp C      &kp D           &kp V  &kp K  &kp H  &kp COMMA  &kp DOT  &kp FSLH
-&none  &mo 1  &kp SPACE  &kp LEFT_SHIFT  &mo 2  &none
+&kp Q  &kp W      &kp F  &kp P  &kp B           &kp J  &kp L  &kp U      &kp Y    &kp SQT
+&kp A  &kp R      &kp S  &kp T  &kp G           &kp M  &kp N  &kp E      &kp I    &kp O
+&kp Z  &kp X      &kp C  &kp D  &kp V           &kp K  &kp H  &kp COMMA  &kp DOT  &kp FSLH
+&mo 1  &kp SPACE  &none  &none  &kp LEFT_SHIFT  &mo 2
             >;
         };
 
@@ -73,7 +73,7 @@
 &bootloader   &sys_reset    &trans          &trans     &trans       &kp HOME     &kp PG_DN  &kp PG_UP  &kp END    &trans
 &sk LEFT_GUI  &sk LEFT_ALT  &sk LEFT_SHIFT  &sk LCTRL  &trans       &kp LEFT     &kp DOWN   &kp UP     &kp RIGHT  &kp BSPC
 &kp ESCAPE    &trans        &trans          &kp TAB    &key_repeat  &key_repeat  &kp RET    &trans     &trans     &kp DEL
-&trans        &trans        &trans          &kp ENTER  &mo 3        &none
+&trans        &trans        &trans          &none      &kp ENTER    &mo 3
             >;
         };
 
@@ -82,7 +82,7 @@
 &kp LS(EXCL)  &kp LS(AT)     &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)  &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)    &kp LS(UNDER)  &kp SEMI
 &kp GRAVE     &kp LS(TILDE)  &kp LS(LBRC)   &kp LS(LPAR)  &kp LBKT       &kp LS(COLON)  &sk LCTRL     &sk LEFT_SHIFT  &sk LEFT_ALT   &sk LEFT_GUI
 &kp LS(LT)    &kp LS(GT)     &kp LS(RBRC)   &kp LS(RPAR)  &kp RBKT       &kp LS(W)      &kp MINUS     &kp EQUAL       &kp LS(POUND)  &kp BSLH
-&trans        &mo 3          &trans         &trans        &trans         &trans
+&mo 3         &none          &trans         &trans        &trans         &trans
             >;
         };
 
