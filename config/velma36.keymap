@@ -37,46 +37,37 @@
 
         default_layer {
             bindings = <
-&kp Q                         &kp W                         &kp F                      &kp P                           &kp B            &kp J       &kp L                            &kp U                       &kp Z                           &kp SQT
-&timeless_mt_left LEFT_GUI A  &timeless_mt_left LEFT_ALT R  &timeless_mt_left LCTRL S  &timeless_mt_left LEFT_SHIFT T  &kp G            &kp M       &timeless_mt_right LEFT_SHIFT N  &timeless_mt_right LCTRL E  &timeless_mt_right RIGHT_ALT I  &timeless_mt_right RIGHT_GUI O
-&kp Y                         &kp X                         &kp C                      &kp D                           &kp V            &kp K       &kp H                            &mo 3                       &mo 4                           &kp SEMICOLON
-&mt LCTRL TAB                 &lt 1 SPACE                   &kp LEFT_SHIFT             &kp ENTER                       &lt 2 BACKSPACE  &kp ESCAPE
+&kp Q  &kp W  &kp F      &kp P           &kp B  &kp J  &kp L  &kp U      &kp Z    &kp SQT
+&kp A  &kp R  &kp S      &kp T           &kp G  &kp M  &kp N  &kp E      &kp I    &kp O
+&kp Y  &kp X  &kp C      &kp D           &kp V  &kp K  &kp H  &kp COMMA  &kp DOT  &kp FSLH
+&none  &mo 1  &kp SPACE  &kp LEFT_SHIFT  &mo 2  &none
             >;
         };
 
-        Navigation {
+        Extend {
             bindings = <
-&trans        &trans        &trans     &trans          &trans     &trans   &trans          &trans    &trans  &trans
-&sk LEFT_GUI  &sk LEFT_ALT  &sk LCTRL  &sk LEFT_SHIFT  &trans     &trans   &kp LEFT_ARROW  &kp DOWN  &kp UP  &kp RIGHT
-&kp LC(Y)     &kp LC(X)     &kp LC(C)  &kp LC(D)       &kp LC(V)  &trans   &kp HOME        &trans    &trans  &kp END
-&trans        &trans        &trans     &kp DEL         &kp BSPC   &kp ESC
+&bootloader   &sys_reset    &trans          &trans     &trans       &kp HOME     &kp PG_DN  &kp PG_UP  &kp END    &trans
+&sk LEFT_GUI  &sk LEFT_ALT  &sk LEFT_SHIFT  &sk LCTRL  &trans       &kp LEFT     &kp DOWN   &kp UP     &kp RIGHT  &kp BSPC
+&kp ESCAPE    &trans        &trans          &kp TAB    &key_repeat  &key_repeat  &kp RET    &trans     &trans     &kp DEL
+&trans        &trans        &trans          &trans     &kp ENTER    &mo 3
             >;
         };
 
-        Numbers {
+        Symbol {
             bindings = <
-&kp F10  &kp F7     &kp F8   &kp F9  &kp PRINTSCREEN  &kp FSLH       &kp N7  &kp N8  &kp N9  &kp BSPC
-&kp F11  &kp F4     &kp F5   &kp F6  &trans           &kp LS(POUND)  &kp N4  &kp N5  &kp N6  &kp DOT
-&kp F12  &kp F1     &kp F2   &kp F3  &trans           &kp GRAVE      &kp N1  &kp N2  &kp N3  &kp COMMA
-&kp TAB  &kp SPACE  &kp RET  &trans  &trans           &trans
+&kp LS(EXCL)  &kp LS(AT)     &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)  &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)    &kp LS(UNDER)  &kp SEMI
+&kp GRAVE     &kp LS(TILDE)  &kp LS(LBRC)   &kp LS(LPAR)  &kp LBKT       &kp LS(COLON)  &sk LCTRL     &sk LEFT_SHIFT  &sk LEFT_ALT   &sk LEFT_GUI
+&kp LS(LT)    &kp LS(GT)     &kp LS(RBRC)   &kp LS(RPAR)  &kp RBKT       &kp LS(W)      &kp MINUS     &kp EQUAL       &kp LS(POUND)  &kp BSLH
+&trans        &mo 3          &trans         &trans        &trans         &trans
             >;
         };
 
-        Symbols {
+        Number {
             bindings = <
-&kp RA(Z)                 &kp RA(N)          &kp RA(G)   &kp LS(LPAR)  &kp RA(Q)      &kp RA(NUMBER_1)  &kp RA(NUMBER_3)  &trans  &trans         &kp RA(V)
-&kp RA(NON_US_BACKSLASH)  &kp RA(B)          &kp RA(F)   &kp LS(STAR)  &kp LS(CARET)  &kp LS(PRCNT)     &kp RA(SLASH)     &trans  &kp LS(GT)     &kp RA(COMMA)
-&kp RA(X)                 &kp RA(SEMICOLON)  &kp LS(LT)  &kp LS(DLLR)  &kp RA(W)      &kp RA(C)         &kp LS(N7)        &trans  &kp LS(POUND)  &kp RA(N7)
-&kp LS(MINUS)             &kp LS(EXCL)       &kp LS(AT)  &kp DOT       &kp COMMA      &kp SLASH
-            >;
-        };
-
-        Misc {
-            bindings = <
-&trans                &kp BSLH  &kp MINUS  &kp RBKT   &trans  &trans  &trans  &trans  &trans  &bootloader
-&kp NON_US_BACKSLASH  &kp LBKT  &kp N0     &kp EQUAL  &trans  &trans  &trans  &trans  &trans  &trans
-&trans                &trans    &trans     &trans     &trans  &trans  &trans  &trans  &trans  &sys_reset
-&trans                &trans    &trans     &trans     &trans  &trans
+&trans        &trans        &trans          &trans     &trans  &trans  &kp N7  &kp N8  &kp N9  &trans
+&sk LEFT_GUI  &sk LEFT_ALT  &sk LEFT_SHIFT  &sk LCTRL  &trans  &trans  &kp N4  &kp N5  &kp N6  &trans
+&trans        &trans        &trans          &trans     &trans  &kp N0  &kp N1  &kp N2  &kp N3  &trans
+&trans        &trans        &trans          &trans     &trans  &trans
             >;
         };
     };
