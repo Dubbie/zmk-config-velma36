@@ -32,6 +32,30 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        Escape {
+            bindings = <&kp ESCAPE>;
+            key-positions = <2 1>;
+        };
+
+        Tab {
+            bindings = <&kp TAB>;
+            key-positions = <21 22>;
+        };
+
+        Backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <8 7>;
+        };
+
+        Enter {
+            bindings = <&kp ENTER>;
+            key-positions = <28 27>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
