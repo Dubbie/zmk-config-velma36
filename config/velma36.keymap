@@ -64,9 +64,9 @@
 
         default_layer {
             bindings = <
-&kp Q                         &kp W                         &kp F                      &kp P                       &kp B            &kp J      &kp L                            &kp U                       &kp Y                           &kp SQT
-&timeless_mt_left LEFT_GUI A  &timeless_mt_left LEFT_ALT R  &timeless_mt_left LCTRL S  &timeless_mt_left LSHIFT T  &kp G            &kp M      &timeless_mt_right LEFT_SHIFT N  &timeless_mt_right LCTRL E  &timeless_mt_right I RIGHT_ALT  &timeless_mt_right LEFT_GUI O
-&kp Z                         &kp X                         &kp C                      &kp D                       &kp V            &kp K      &kp H                            &kp COMMA                   &kp DOT                         &kp FSLH
+&kp Q                         &kp W                         &kp F                      &kp P                       &kp B            &kp J      &kp L                            &kp U                       &kp Y                          &kp SQT
+&timeless_mt_left LEFT_GUI A  &timeless_mt_left LEFT_ALT R  &timeless_mt_left LCTRL S  &timeless_mt_left LSHIFT T  &kp G            &kp M      &timeless_mt_right LEFT_SHIFT N  &timeless_mt_right LCTRL E  &timeless_mt_right I LEFT_ALT  &timeless_mt_right LEFT_GUI O
+&kp Z                         &kp X                         &kp C                      &kp D                       &kp V            &kp K      &kp H                            &kp COMMA                   &kp DOT                        &kp FSLH
 &lt 1 ESCAPE                  &lt 2 SPACE                   &kp TAB                    &lt 3 ENTER                 &lt 4 BACKSPACE  &lt 5 DEL
             >;
         };
