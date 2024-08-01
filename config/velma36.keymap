@@ -49,7 +49,7 @@
 &bootloader   &sys_reset    &trans          &trans     &trans       &kp HOME     &kp PG_DN  &kp PG_UP  &kp END    &trans
 &sk LEFT_GUI  &sk LEFT_ALT  &sk LEFT_SHIFT  &sk LCTRL  &trans       &kp LEFT     &kp DOWN   &kp UP     &kp RIGHT  &kp BSPC
 &kp ESCAPE    &trans        &trans          &kp TAB    &key_repeat  &key_repeat  &kp RET    &trans     &trans     &kp DEL
-&trans        &trans        &trans          &trans     &kp ENTER    &mo 3
+&trans        &trans        &trans          &kp ENTER  &mo 3        &none
             >;
         };
 
